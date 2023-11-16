@@ -4,7 +4,7 @@ metadata:
   name: podinfo
   namespace: gitops-flux-demo
 spec:
-  minReadySeconds: 3
+  minReadySeconds: 4
   revisionHistoryLimit: 5
   progressDeadlineSeconds: 60
   strategy:
